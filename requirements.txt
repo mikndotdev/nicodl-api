@@ -1,0 +1,5 @@
+requests
+bunnycdnpython
+niconico.py
+fastapi
+python-dotenv
