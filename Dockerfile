@@ -10,4 +10,4 @@ COPY ./ /code/
 
 ENV PORT 80
 
-CMD ["fastapi", "run", "main.py", "--port", "$PORT"]
+CMD ["fastapi", "run", "main.py", "--port", $PORT]
