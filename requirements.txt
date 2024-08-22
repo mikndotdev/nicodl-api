@@ -2,4 +2,5 @@ requests
 bunnycdnpython
 niconico.py
 fastapi
+fastapi[standard]
 python-dotenv
