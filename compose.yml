@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    image: ghcr.io/mikndotdev/nicodl-api:latest
+    ports:
+      - "${PORT}:80"
+    environment:
+      - NICONICO_EMAIL=${NICONICO_EMAIL}
+      - NICONICO_PASSWORD=${NICONICO_PASSWORD}
+      - BUNNY_API_KEY=${BUNNY_API_KEY}
+      - BUNNY_STORAGE_ZONE=${BUNNY_STORAGE_ZONE}
+      - BUNNY_STORAGE_REGION=${BUNNY_STORAGE_REGION}
+      - DOWNLOAD_BASE_URL=${DOWNLOAD_BASE_URL}
